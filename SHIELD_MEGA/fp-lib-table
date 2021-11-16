@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Arduino)(type KiCad)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/Arduino.pretty)(options "")(descr ""))
+)
