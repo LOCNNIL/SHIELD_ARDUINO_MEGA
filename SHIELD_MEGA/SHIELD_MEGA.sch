@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -180,4 +180,16 @@ Wire Wire Line
 	7500 1500 8250 1500
 Wire Wire Line
 	8250 1350 7500 1350
+$Sheet
+S 1250 3000 1250 1500
+U 6197A5F1
+F0 "Receiver" 50
+F1 "Radio_receiver.sch" 50
+$EndSheet
+$Sheet
+S 8300 3200 950  850 
+U 6197A819
+F0 "GPS" 50
+F1 "gps_module.sch" 50
+$EndSheet
 $EndSCHEMATC
