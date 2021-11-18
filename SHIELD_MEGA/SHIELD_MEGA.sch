@@ -196,4 +196,6 @@ Text HLabel 8050 3300 2    50   Input ~ 0
 GND
 Text Label 7750 3300 0    50   ~ 0
 GND
+Wire Wire Line
+	7750 3300 8050 3300
 $EndSCHEMATC
