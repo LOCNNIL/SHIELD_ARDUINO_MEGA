@@ -187,9 +187,11 @@ F0 "Receiver" 50
 F1 "Radio_receiver.sch" 50
 $EndSheet
 $Sheet
-S 8100 3000 950  850 
+S 8050 2950 950  850 
 U 6197A819
 F0 "GPS" 50
 F1 "gps_module.sch" 50
 $EndSheet
+Text HLabel 8050 3300 2    50   Input ~ 0
+GND
 $EndSCHEMATC
