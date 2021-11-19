@@ -100,4 +100,12 @@ Wire Wire Line
 	7350 5550 7150 5550
 Text Label 7350 5550 0    50   ~ 0
 D50
+Text Label 7350 2350 0    50   ~ 0
+D10
+Wire Wire Line
+	7350 2350 7150 2350
+Wire Wire Line
+	7150 2450 7350 2450
+Text Label 7350 2450 0    50   ~ 0
+D11
 $EndSCHEMATC
