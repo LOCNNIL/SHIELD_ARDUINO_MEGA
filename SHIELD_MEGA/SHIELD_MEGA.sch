@@ -181,7 +181,7 @@ Wire Wire Line
 Wire Wire Line
 	8050 1150 7300 1150
 $Sheet
-S 1050 2650 1250 1500
+S 1850 2650 1250 1500
 U 6197A5F1
 F0 "Receiver" 50
 F1 "Radio_receiver.sch" 50
@@ -216,4 +216,52 @@ Wire Wire Line
 	7300 3000 8050 3000
 Wire Wire Line
 	7300 3150 8050 3150
+Text HLabel 3100 3000 0    50   Input ~ 0
+GND
+Text HLabel 3100 3150 0    50   Input ~ 0
+5V
+Text Label 3400 3000 0    50   ~ 0
+GND
+Wire Wire Line
+	3400 3000 3100 3000
+Wire Wire Line
+	3100 3150 3400 3150
+Text Label 3400 3150 0    50   ~ 0
+5V
+Text HLabel 3100 3300 0    50   Input ~ 0
+D53
+Text HLabel 3100 3400 0    50   Input ~ 0
+D52
+Text HLabel 3100 3500 0    50   Input ~ 0
+D51
+Text HLabel 3100 3600 0    50   Input ~ 0
+D50
+Text HLabel 3100 3800 0    50   Input ~ 0
+D11
+Text HLabel 3100 3700 0    50   Input ~ 0
+D10
+Text HLabel 3850 3300 2    50   Input ~ 0
+D53
+Text HLabel 3850 3400 2    50   Input ~ 0
+D52
+Text HLabel 3850 3500 2    50   Input ~ 0
+D51
+Text HLabel 3850 3600 2    50   Input ~ 0
+D50
+Text HLabel 3850 3700 2    50   Input ~ 0
+D10
+Text HLabel 3850 3800 2    50   Input ~ 0
+D11
+Wire Wire Line
+	3100 3300 3850 3300
+Wire Wire Line
+	3850 3400 3100 3400
+Wire Wire Line
+	3100 3500 3850 3500
+Wire Wire Line
+	3850 3600 3100 3600
+Wire Wire Line
+	3100 3700 3850 3700
+Wire Wire Line
+	3850 3800 3100 3800
 $EndSCHEMATC
