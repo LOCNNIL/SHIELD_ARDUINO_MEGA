@@ -84,4 +84,20 @@ Text Label 4150 2650 0    50   ~ 0
 SCL
 Wire Wire Line
 	4150 2650 4550 2650
+Text Label 7350 5850 0    50   ~ 0
+D53
+Wire Wire Line
+	7350 5850 7150 5850
+Wire Wire Line
+	7150 5750 7350 5750
+Text Label 7350 5750 0    50   ~ 0
+D52
+Wire Wire Line
+	7350 5650 7150 5650
+Text Label 7350 5650 0    50   ~ 0
+D51
+Wire Wire Line
+	7350 5550 7150 5550
+Text Label 7350 5550 0    50   ~ 0
+D50
 $EndSCHEMATC
