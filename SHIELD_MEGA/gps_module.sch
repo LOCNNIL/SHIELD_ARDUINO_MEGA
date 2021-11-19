@@ -34,4 +34,12 @@ Text Label 5200 3800 0    50   ~ 0
 5V
 Wire Wire Line
 	5200 3800 5500 3800
+Text Label 5200 3600 0    50   ~ 0
+RX
+Wire Wire Line
+	5200 3600 5500 3600
+Text Label 5200 3700 0    50   ~ 0
+TX
+Wire Wire Line
+	5200 3700 5500 3700
 $EndSCHEMATC
