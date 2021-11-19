@@ -181,21 +181,39 @@ Wire Wire Line
 Wire Wire Line
 	8050 1150 7300 1150
 $Sheet
-S 1050 2800 1250 1500
+S 1050 2650 1250 1500
 U 6197A5F1
 F0 "Receiver" 50
 F1 "Radio_receiver.sch" 50
 $EndSheet
 $Sheet
-S 8050 2950 950  850 
+S 8050 2700 950  850 
 U 6197A819
 F0 "GPS" 50
 F1 "gps_module.sch" 50
 $EndSheet
-Text HLabel 8050 3300 2    50   Input ~ 0
+Text HLabel 8050 2850 2    50   Input ~ 0
 GND
-Text Label 7750 3300 0    50   ~ 0
+Text Label 7750 2850 0    50   ~ 0
 GND
 Wire Wire Line
+	7750 2850 8050 2850
+Text HLabel 8050 3300 2    50   Input ~ 0
+5V
+Text HLabel 8050 3000 2    50   Input ~ 0
+RX
+Text HLabel 8050 3150 2    50   Input ~ 0
+TX
+Text Label 7750 3300 0    50   ~ 0
+5V
+Wire Wire Line
 	7750 3300 8050 3300
+Text HLabel 7300 3000 0    50   Input ~ 0
+RX
+Text HLabel 7300 3150 0    50   Input ~ 0
+TX
+Wire Wire Line
+	7300 3000 8050 3000
+Wire Wire Line
+	7300 3150 8050 3150
 $EndSCHEMATC
