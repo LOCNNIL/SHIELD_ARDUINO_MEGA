@@ -103,15 +103,11 @@ S 1300 1900 2000 1500
 U 619602F2
 F0 "ACCEL" 50
 F1 "ACCEL.sch" 50
+F2 "3.3V" I R 3300 2300 50 
+F3 "GND" I R 3300 2450 50 
+F4 "SCL" I R 3300 2600 50 
+F5 "SDA" I R 3300 2750 50 
 $EndSheet
-Text HLabel 3300 2300 0    50   Input ~ 0
-3.3V
-Text HLabel 3300 2450 0    50   Input ~ 0
-GND
-Text HLabel 3300 2600 0    50   Input ~ 0
-SCL
-Text HLabel 3300 2750 0    50   Input ~ 0
-SDA
 Wire Wire Line
 	3300 2300 3400 2300
 Text Label 3400 2300 0    50   ~ 0
@@ -153,12 +149,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 1400 7550 1400
 $Sheet
-S 2050 3650 1250 1500
-U 6197A5F1
-F0 "Receiver" 50
-F1 "Radio_receiver.sch" 50
-$EndSheet
-$Sheet
 S 8300 2900 950  850 
 U 6197A819
 F0 "GPS" 50
@@ -184,10 +174,6 @@ Wire Wire Line
 	7550 3200 8300 3200
 Wire Wire Line
 	7550 3350 8300 3350
-Text HLabel 3300 4000 0    50   Input ~ 0
-GND
-Text HLabel 3300 4150 0    50   Input ~ 0
-5V
 Text Label 3550 4000 0    50   ~ 0
 GND
 Wire Wire Line
@@ -196,18 +182,6 @@ Wire Wire Line
 	3300 4150 3550 4150
 Text Label 3550 4150 0    50   ~ 0
 5V
-Text HLabel 3300 4300 0    50   Input ~ 0
-D53
-Text HLabel 3300 4400 0    50   Input ~ 0
-D52
-Text HLabel 3300 4500 0    50   Input ~ 0
-D51
-Text HLabel 3300 4600 0    50   Input ~ 0
-D50
-Text HLabel 3300 4800 0    50   Input ~ 0
-D11
-Text HLabel 3300 4700 0    50   Input ~ 0
-D10
 Wire Wire Line
 	3300 4300 4100 4300
 Wire Wire Line
@@ -269,5 +243,19 @@ F17 "D06" I R 7550 1700 50
 F18 "D07" I R 7550 1850 50 
 F19 "RX" I R 7550 3200 50 
 F20 "TX" I R 7550 3350 50 
+$EndSheet
+$Sheet
+S 2050 3650 1250 1500
+U 6197A5F1
+F0 "Receiver" 50
+F1 "Radio_receiver.sch" 50
+F2 "GND" I R 3300 4000 50 
+F3 "5V" I R 3300 4150 50 
+F4 "D53" I R 3300 4300 50 
+F5 "D52" I R 3300 4400 50 
+F6 "D51" I R 3300 4500 50 
+F7 "D50" I R 3300 4600 50 
+F8 "D10" I R 3300 4700 50 
+F9 "D11" I R 3300 4800 50 
 $EndSheet
 $EndSCHEMATC
