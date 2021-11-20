@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -24,7 +24,7 @@ L Connector:Conn_01x06_Female J?
 U 1 1 61960166
 P 5700 3500
 F 0 "J?" H 5728 3476 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 5728 3385 50  0000 L CNN
+F 1 "Hirose-DF13-6p-1.25dsa" H 5728 3385 50  0000 L CNN
 F 2 "" H 5700 3500 50  0001 C CNN
 F 3 "~" H 5700 3500 50  0001 C CNN
 	1    5700 3500
