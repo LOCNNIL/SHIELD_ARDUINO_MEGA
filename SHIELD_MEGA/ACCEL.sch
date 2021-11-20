@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -16,16 +16,10 @@ $EndDescr
 NoConn ~ 5650 3000
 NoConn ~ 5650 3500
 NoConn ~ 5650 3600
-Text Label 5800 3100 0    50   ~ 0
-3.3V
 Wire Wire Line
 	5800 3100 5650 3100
-Text Label 5800 3200 0    50   ~ 0
-GND
 Wire Wire Line
 	5800 3200 5650 3200
-Text Label 5800 3300 0    50   ~ 0
-SCL
 Wire Wire Line
 	5800 3300 5650 3300
 $Comp
@@ -41,6 +35,12 @@ F 3 "~" H 5450 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 3400 5800 3400
-Text Label 5800 3400 0    50   ~ 0
+Text HLabel 5800 3100 2    50   Input ~ 0
+3.3V
+Text HLabel 5800 3200 2    50   Input ~ 0
+GND
+Text HLabel 5800 3300 2    50   Input ~ 0
+SCL
+Text HLabel 5800 3400 2    50   Input ~ 0
 SDA
 $EndSCHEMATC
