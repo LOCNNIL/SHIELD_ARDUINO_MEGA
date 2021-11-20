@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_01x06_Female J?
-U 1 1 61BC2335
-P 6500 3700
-F 0 "J?" H 6392 3175 50  0000 C CNN
-F 1 "Conn_01x06_Female" H 6392 3266 50  0000 C CNN
-F 2 "" H 6500 3700 50  0001 C CNN
-F 3 "~" H 6500 3700 50  0001 C CNN
-	1    6500 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 61BC9EBC
-P 3350 3800
-F 0 "J?" H 3242 3375 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 3242 3466 50  0000 C CNN
-F 2 "" H 3350 3800 50  0001 C CNN
-F 3 "~" H 3350 3800 50  0001 C CNN
-	1    3350 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3750 3900 3550 3900
 Wire Wire Line
@@ -43,17 +21,6 @@ Text HLabel 3750 3800 2    50   Input ~ 0
 5V
 Text HLabel 3750 3900 2    50   Input ~ 0
 DGND
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 61BCA22A
-P 4350 3800
-F 0 "J?" H 4242 3375 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 4242 3466 50  0000 C CNN
-F 2 "" H 4350 3800 50  0001 C CNN
-F 3 "~" H 4350 3800 50  0001 C CNN
-	1    4350 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4750 3900 4550 3900
 Wire Wire Line
@@ -62,17 +29,6 @@ Text HLabel 4750 3800 2    50   Input ~ 0
 5V
 Text HLabel 4750 3900 2    50   Input ~ 0
 DGND
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 61BCC978
-P 5300 3800
-F 0 "J?" H 5192 3375 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 5192 3466 50  0000 C CNN
-F 2 "" H 5300 3800 50  0001 C CNN
-F 3 "~" H 5300 3800 50  0001 C CNN
-	1    5300 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5700 3900 5500 3900
 Wire Wire Line
@@ -129,4 +85,48 @@ Text HLabel 6900 3400 2    50   Input ~ 0
 MISO
 Wire Wire Line
 	6900 3400 6700 3400
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61C34CF1
+P 3350 3700
+F 0 "J?" H 3458 3981 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3458 3890 50  0000 C CNN
+F 2 "" H 3350 3700 50  0001 C CNN
+F 3 "~" H 3350 3700 50  0001 C CNN
+	1    3350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61C36CF7
+P 4350 3700
+F 0 "J?" H 4458 3981 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4458 3890 50  0000 C CNN
+F 2 "" H 4350 3700 50  0001 C CNN
+F 3 "~" H 4350 3700 50  0001 C CNN
+	1    4350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 61C37472
+P 5300 3700
+F 0 "J?" H 5408 3981 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5408 3890 50  0000 C CNN
+F 2 "" H 5300 3700 50  0001 C CNN
+F 3 "~" H 5300 3700 50  0001 C CNN
+	1    5300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J?
+U 1 1 61C38C33
+P 6500 3600
+F 0 "J?" H 6608 3981 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 6608 3890 50  0000 C CNN
+F 2 "" H 6500 3600 50  0001 C CNN
+F 3 "~" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
