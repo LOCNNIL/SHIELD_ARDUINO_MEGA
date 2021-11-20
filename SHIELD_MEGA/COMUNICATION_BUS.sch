@@ -113,4 +113,20 @@ Text HLabel 5700 3600 2    50   Input ~ 0
 RX3
 Wire Wire Line
 	5500 3600 5700 3600
+Wire Wire Line
+	6700 3700 6900 3700
+Text HLabel 6900 3700 2    50   Input ~ 0
+SPI_RST
+Text HLabel 6900 3600 2    50   Input ~ 0
+SCK
+Wire Wire Line
+	6900 3600 6700 3600
+Wire Wire Line
+	6700 3500 6900 3500
+Text HLabel 6900 3500 2    50   Input ~ 0
+MOSI
+Text HLabel 6900 3400 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	6900 3400 6700 3400
 $EndSCHEMATC
