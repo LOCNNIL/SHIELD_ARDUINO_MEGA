@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -108,4 +108,74 @@ Wire Wire Line
 	7150 2450 7350 2450
 Text Label 7350 2450 0    50   ~ 0
 D11
+$Sheet
+S 2900 2750 650  1700
+U 61A24149
+F0 "ANALOG_PINS" 50
+F1 "ANALOG_BUS.sch" 50
+$EndSheet
+Text HLabel 3550 2850 0    50   Input ~ 0
+A0
+Text HLabel 3550 2950 0    50   Input ~ 0
+A1
+Text HLabel 3550 3050 0    50   Input ~ 0
+A2
+Text HLabel 3550 3150 0    50   Input ~ 0
+A3
+Text HLabel 3550 3250 0    50   Input ~ 0
+A4
+Text HLabel 3550 3350 0    50   Input ~ 0
+A5
+Text HLabel 3550 3450 0    50   Input ~ 0
+A6
+Text HLabel 3550 3550 0    50   Input ~ 0
+A7
+Text HLabel 3550 3650 0    50   Input ~ 0
+A8
+Text HLabel 3550 3750 0    50   Input ~ 0
+A9
+Text HLabel 3550 3850 0    50   Input ~ 0
+A10
+Text HLabel 3550 3950 0    50   Input ~ 0
+A11
+Text HLabel 3550 4050 0    50   Input ~ 0
+A12
+Text HLabel 3550 4150 0    50   Input ~ 0
+A13
+Text HLabel 3550 4250 0    50   Input ~ 0
+A14
+Text HLabel 3550 4350 0    50   Input ~ 0
+A15
+Wire Wire Line
+	3550 2850 4550 2850
+Wire Wire Line
+	4550 2950 3550 2950
+Wire Wire Line
+	3550 3050 4550 3050
+Wire Wire Line
+	4550 3150 3550 3150
+Wire Wire Line
+	3550 3250 4550 3250
+Wire Wire Line
+	4550 3350 3550 3350
+Wire Wire Line
+	3550 3450 4550 3450
+Wire Wire Line
+	4550 3550 3550 3550
+Wire Wire Line
+	3550 3650 4550 3650
+Wire Wire Line
+	4550 3750 3550 3750
+Wire Wire Line
+	3550 3850 4550 3850
+Wire Wire Line
+	4550 3950 3550 3950
+Wire Wire Line
+	3550 4050 4550 4050
+Wire Wire Line
+	4550 4150 3550 4150
+Wire Wire Line
+	3550 4250 4550 4250
+Wire Wire Line
+	4550 4350 3550 4350
 $EndSCHEMATC
