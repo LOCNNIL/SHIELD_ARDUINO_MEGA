@@ -2,4 +2,5 @@
   (lib (name Arduino_MEGA_2560-Rev3)(type Legacy)(uri D:/users/linco/Drive/PROJETOS/KiCad/Arduino_MEGA_2560-Rev3/Arduino_MEGA_2560-Rev3.lib)(options "")(descr ""))
   (lib (name ARDUINO_BOARDS)(type Legacy)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/ARDUINO_BOARDS.lib)(options "")(descr ""))
   (lib (name arduino)(type Legacy)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/arduino.lib)(options "")(descr ""))
+  (lib (name Connector-hirose_df13-6p)(type Legacy)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/Connector-hirose_df13-6p.lib)(options "")(descr ""))
 )
