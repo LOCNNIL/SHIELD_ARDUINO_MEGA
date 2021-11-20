@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 3850 900  3450 4000
-U 6194FDB3
-F0 "arduino_mega_2560" 50
-F1 "mega_2560.sch" 50
-$EndSheet
 $Comp
 L Connector:Conn_01x03_Male J?
 U 1 1 61954CC1
@@ -69,12 +63,10 @@ Wire Wire Line
 	9950 5950 10550 5950
 Wire Wire Line
 	9950 6050 10000 6050
-Text HLabel 3850 950  2    50   Input ~ 0
-GND
-Text Label 3650 950  0    50   ~ 0
+Text Label 3900 1200 0    50   ~ 0
 GND
 Wire Wire Line
-	3650 950  3850 950 
+	3900 1200 4100 1200
 Wire Wire Line
 	10000 6250 10000 6050
 Connection ~ 10000 6050
@@ -96,172 +88,186 @@ Wire Wire Line
 Connection ~ 10000 5850
 Wire Wire Line
 	10000 5850 10050 5850
-Text HLabel 3850 1150 2    50   Input ~ 0
-3.3V
-Text HLabel 3850 1050 2    50   Input ~ 0
+Wire Wire Line
+	4100 1300 3900 1300
+Wire Wire Line
+	4100 1400 3900 1400
+Text Label 3900 1300 0    50   ~ 0
 5V
-Wire Wire Line
-	3850 1050 3650 1050
-Wire Wire Line
-	3850 1150 3650 1150
-Text Label 3650 1050 0    50   ~ 0
-5V
-Text Label 3650 1150 0    50   ~ 0
+Text Label 3900 1400 0    50   ~ 0
 3.3V
-Text HLabel 3850 1300 2    50   Input ~ 0
+Text Label 3900 1600 0    50   ~ 0
 ~RST
-Text Label 3650 1300 0    50   ~ 0
-~RST
-Wire Wire Line
-	3650 1300 3850 1300
 $Sheet
-S 1050 850  2000 1500
+S 1300 1900 2000 1500
 U 619602F2
 F0 "ACCEL" 50
 F1 "ACCEL.sch" 50
 $EndSheet
-Text HLabel 3050 1250 0    50   Input ~ 0
+Text HLabel 3300 2300 0    50   Input ~ 0
 3.3V
-Text HLabel 3050 1400 0    50   Input ~ 0
+Text HLabel 3300 2450 0    50   Input ~ 0
 GND
-Text HLabel 3050 1550 0    50   Input ~ 0
+Text HLabel 3300 2600 0    50   Input ~ 0
 SCL
-Text HLabel 3050 1700 0    50   Input ~ 0
+Text HLabel 3300 2750 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	3050 1250 3150 1250
-Text Label 3150 1250 0    50   ~ 0
+	3300 2300 3400 2300
+Text Label 3400 2300 0    50   ~ 0
 3.3V
-Text Label 3150 1400 0    50   ~ 0
+Text Label 3400 2450 0    50   ~ 0
 GND
 Wire Wire Line
-	3150 1400 3050 1400
-Text HLabel 3850 1550 2    50   Input ~ 0
-SCL
-Text HLabel 3850 1700 2    50   Input ~ 0
-SDA
-Text HLabel 8050 1000 2    50   Input ~ 0
+	3400 2450 3300 2450
+Text HLabel 8300 1250 2    50   Input ~ 0
 GND
 $Sheet
-S 8050 800  1200 1600
+S 8300 1050 1200 1600
 U 619656BE
 F0 "ESCs" 50
 F1 "ESC_PWMs.sch" 50
 $EndSheet
-Text HLabel 8050 1150 2    50   Input ~ 0
+Text HLabel 8300 1400 2    50   Input ~ 0
 D04
-Text HLabel 8050 1300 2    50   Input ~ 0
+Text HLabel 8300 1550 2    50   Input ~ 0
 D05
-Text HLabel 8050 1450 2    50   Input ~ 0
+Text HLabel 8300 1700 2    50   Input ~ 0
 D06
-Text HLabel 8050 1600 2    50   Input ~ 0
+Text HLabel 8300 1850 2    50   Input ~ 0
 D07
 Wire Wire Line
-	3050 1550 3850 1550
+	3300 2600 4100 2600
 Wire Wire Line
-	3850 1700 3050 1700
-Text Label 7700 1000 0    50   ~ 0
+	4100 2750 3300 2750
+Text Label 7950 1250 0    50   ~ 0
 GND
 Wire Wire Line
-	7700 1000 8050 1000
-Text HLabel 7300 1150 0    50   Input ~ 0
-D04
-Text HLabel 7300 1300 0    50   Input ~ 0
-D05
-Text HLabel 7300 1450 0    50   Input ~ 0
-D06
-Text HLabel 7300 1600 0    50   Input ~ 0
-D07
+	7950 1250 8300 1250
 Wire Wire Line
-	7300 1600 8050 1600
+	7550 1850 8300 1850
 Wire Wire Line
-	8050 1450 7300 1450
+	8300 1700 7550 1700
 Wire Wire Line
-	7300 1300 8050 1300
+	7550 1550 8300 1550
 Wire Wire Line
-	8050 1150 7300 1150
+	8300 1400 7550 1400
 $Sheet
-S 1850 2650 1250 1500
+S 2050 3650 1250 1500
 U 6197A5F1
 F0 "Receiver" 50
 F1 "Radio_receiver.sch" 50
 $EndSheet
 $Sheet
-S 8050 2650 950  850 
+S 8300 2900 950  850 
 U 6197A819
 F0 "GPS" 50
 F1 "gps_module.sch" 50
 $EndSheet
-Text HLabel 8050 2800 2    50   Input ~ 0
+Text HLabel 8300 3050 2    50   Input ~ 0
 GND
-Text Label 7750 2800 0    50   ~ 0
+Text Label 8000 3050 0    50   ~ 0
 GND
 Wire Wire Line
-	7750 2800 8050 2800
-Text HLabel 8050 3250 2    50   Input ~ 0
+	8000 3050 8300 3050
+Text HLabel 8300 3500 2    50   Input ~ 0
 5V
-Text HLabel 8050 2950 2    50   Input ~ 0
+Text HLabel 8300 3200 2    50   Input ~ 0
 RX
-Text HLabel 8050 3100 2    50   Input ~ 0
+Text HLabel 8300 3350 2    50   Input ~ 0
 TX
-Text Label 7750 3250 0    50   ~ 0
+Text Label 8000 3500 0    50   ~ 0
 5V
 Wire Wire Line
-	7750 3250 8050 3250
-Text HLabel 7300 2950 0    50   Input ~ 0
-RX
-Text HLabel 7300 3100 0    50   Input ~ 0
-TX
+	8000 3500 8300 3500
 Wire Wire Line
-	7300 2950 8050 2950
+	7550 3200 8300 3200
 Wire Wire Line
-	7300 3100 8050 3100
-Text HLabel 3100 3000 0    50   Input ~ 0
+	7550 3350 8300 3350
+Text HLabel 3300 4000 0    50   Input ~ 0
 GND
-Text HLabel 3100 3150 0    50   Input ~ 0
+Text HLabel 3300 4150 0    50   Input ~ 0
 5V
-Text Label 3400 3000 0    50   ~ 0
+Text Label 3550 4000 0    50   ~ 0
 GND
 Wire Wire Line
-	3400 3000 3100 3000
+	3550 4000 3300 4000
 Wire Wire Line
-	3100 3150 3400 3150
-Text Label 3400 3150 0    50   ~ 0
+	3300 4150 3550 4150
+Text Label 3550 4150 0    50   ~ 0
 5V
-Text HLabel 3100 3300 0    50   Input ~ 0
+Text HLabel 3300 4300 0    50   Input ~ 0
 D53
-Text HLabel 3100 3400 0    50   Input ~ 0
+Text HLabel 3300 4400 0    50   Input ~ 0
 D52
-Text HLabel 3100 3500 0    50   Input ~ 0
+Text HLabel 3300 4500 0    50   Input ~ 0
 D51
-Text HLabel 3100 3600 0    50   Input ~ 0
+Text HLabel 3300 4600 0    50   Input ~ 0
 D50
-Text HLabel 3100 3800 0    50   Input ~ 0
+Text HLabel 3300 4800 0    50   Input ~ 0
 D11
-Text HLabel 3100 3700 0    50   Input ~ 0
+Text HLabel 3300 4700 0    50   Input ~ 0
 D10
-Text HLabel 3850 3300 2    50   Input ~ 0
-D53
-Text HLabel 3850 3400 2    50   Input ~ 0
-D52
-Text HLabel 3850 3500 2    50   Input ~ 0
-D51
-Text HLabel 3850 3600 2    50   Input ~ 0
-D50
-Text HLabel 3850 3700 2    50   Input ~ 0
-D10
-Text HLabel 3850 3800 2    50   Input ~ 0
-D11
 Wire Wire Line
-	3100 3300 3850 3300
+	3300 4300 4100 4300
 Wire Wire Line
-	3850 3400 3100 3400
+	4100 4400 3300 4400
 Wire Wire Line
-	3100 3500 3850 3500
+	3300 4500 4100 4500
 Wire Wire Line
-	3850 3600 3100 3600
+	4100 4600 3300 4600
 Wire Wire Line
-	3100 3700 3850 3700
+	3300 4700 4100 4700
 Wire Wire Line
-	3850 3800 3100 3800
+	4100 4800 3300 4800
+Wire Wire Line
+	3900 1600 4100 1600
+Wire Wire Line
+	4100 1500 3900 1500
+Text Label 3900 1500 0    50   ~ 0
+VIN
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 61A80B16
+P 9750 5300
+F 0 "J?" H 9858 5481 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 9858 5390 50  0000 C CNN
+F 2 "" H 9750 5300 50  0001 C CNN
+F 3 "~" H 9750 5300 50  0001 C CNN
+	1    9750 5300
+	1    0    0    -1  
+$EndComp
+Text Label 10250 5300 0    50   ~ 0
+VIN
+Wire Wire Line
+	10250 5300 9950 5300
+Wire Wire Line
+	9950 5400 10250 5400
+Text Label 10250 5400 0    50   ~ 0
+GND
+$Sheet
+S 4100 1150 3450 4000
+U 6194FDB3
+F0 "arduino_mega_2560" 50
+F1 "mega_2560.sch" 50
+F2 "GND" I L 4100 1200 50 
+F3 "5V" I L 4100 1300 50 
+F4 "3.3V" I L 4100 1400 50 
+F5 "VIN" I L 4100 1500 50 
+F6 "~RST" I L 4100 1600 50 
+F7 "SCL" I L 4100 2600 50 
+F8 "SDA" I L 4100 2750 50 
+F9 "D53" I L 4100 4300 50 
+F10 "D52" I L 4100 4400 50 
+F11 "D51" I L 4100 4500 50 
+F12 "D50" I L 4100 4600 50 
+F13 "D10" I L 4100 4700 50 
+F14 "D11" I L 4100 4800 50 
+F15 "D04" I R 7550 1400 50 
+F16 "D05" I R 7550 1550 50 
+F17 "D06" I R 7550 1700 50 
+F18 "D07" I R 7550 1850 50 
+F19 "RX" I R 7550 3200 50 
+F20 "TX" I R 7550 3350 50 
+$EndSheet
 $EndSCHEMATC
