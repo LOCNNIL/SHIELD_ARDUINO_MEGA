@@ -33,12 +33,12 @@ SCL
 Text HLabel 5800 3400 2    50   Input ~ 0
 SDA
 $Comp
-L Connector:Conn_01x07_Female J3
+L Connector:Conn_01x07_Female J6
 U 1 1 61B8ACF7
 P 5450 3300
-F 0 "J3" H 5342 2775 50  0000 C CNN
+F 0 "J6" H 5342 2775 50  0000 C CNN
 F 1 "Conn_01x07_Female" H 5342 2866 50  0000 C CNN
-F 2 "" H 5450 3300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 5450 3300 50  0001 C CNN
 F 3 "~" H 5450 3300 50  0001 C CNN
 	1    5450 3300
 	-1   0    0    1   
