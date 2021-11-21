@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "SHIELD ARDUINO MEGA"
+Date "2021-11-21"
+Rev "V1"
+Comp "PROEX - UNIFEI"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "LINCOLN WALLACE VELOSO ALMEIDA"
 $EndDescr
 Wire Wire Line
 	3950 3850 3750 3850
@@ -86,10 +86,10 @@ MISO
 Wire Wire Line
 	5950 4950 5750 4950
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J9
 U 1 1 61C34CF1
 P 3550 3650
-F 0 "J?" H 3658 3931 50  0000 C CNN
+F 0 "J9" H 3658 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 3658 3840 50  0000 C CNN
 F 2 "" H 3550 3650 50  0001 C CNN
 F 3 "~" H 3550 3650 50  0001 C CNN
@@ -97,10 +97,10 @@ F 3 "~" H 3550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J10
 U 1 1 61C36CF7
 P 5550 3650
-F 0 "J?" H 5658 3931 50  0000 C CNN
+F 0 "J10" H 5658 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5658 3840 50  0000 C CNN
 F 2 "" H 5550 3650 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
@@ -108,10 +108,10 @@ F 3 "~" H 5550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J12
 U 1 1 61C37472
 P 7500 3650
-F 0 "J?" H 7608 3931 50  0000 C CNN
+F 0 "J12" H 7608 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 7608 3840 50  0000 C CNN
 F 2 "" H 7500 3650 50  0001 C CNN
 F 3 "~" H 7500 3650 50  0001 C CNN
@@ -119,10 +119,10 @@ F 3 "~" H 7500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J?
+L Connector:Conn_01x06_Male J11
 U 1 1 61C38C33
 P 5550 5150
-F 0 "J?" H 5658 5531 50  0000 C CNN
+F 0 "J11" H 5658 5531 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5658 5440 50  0000 C CNN
 F 2 "" H 5550 5150 50  0001 C CNN
 F 3 "~" H 5550 5150 50  0001 C CNN
