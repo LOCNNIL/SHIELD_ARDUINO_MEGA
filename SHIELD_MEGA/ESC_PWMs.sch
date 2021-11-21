@@ -50,45 +50,45 @@ GND
 Text HLabel 7650 3800 2    50   Input ~ 0
 GND
 $Comp
-L Connector:Conn_01x03_Female J4
+L Connector:Conn_01x03_Female J7
 U 1 1 61B84D65
 P 4250 3900
-F 0 "J4" H 4142 3575 50  0000 C CNN
+F 0 "J7" H 4142 3575 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 4142 3666 50  0000 C CNN
-F 2 "" H 4250 3900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4250 3900 50  0001 C CNN
 F 3 "~" H 4250 3900 50  0001 C CNN
 	1    4250 3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J5
+L Connector:Conn_01x03_Female J8
 U 1 1 61B866DB
 P 5250 3900
-F 0 "J5" H 5142 3575 50  0000 C CNN
+F 0 "J8" H 5142 3575 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 5142 3666 50  0000 C CNN
-F 2 "" H 5250 3900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5250 3900 50  0001 C CNN
 F 3 "~" H 5250 3900 50  0001 C CNN
 	1    5250 3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J6
+L Connector:Conn_01x03_Female J9
 U 1 1 61B88889
 P 6200 3900
-F 0 "J6" H 6092 3575 50  0000 C CNN
+F 0 "J9" H 6092 3575 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 6092 3666 50  0000 C CNN
-F 2 "" H 6200 3900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6200 3900 50  0001 C CNN
 F 3 "~" H 6200 3900 50  0001 C CNN
 	1    6200 3900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J7
+L Connector:Conn_01x03_Female J10
 U 1 1 61B8957B
 P 7150 3900
-F 0 "J7" H 7042 3575 50  0000 C CNN
+F 0 "J10" H 7042 3575 50  0000 C CNN
 F 1 "Conn_01x03_Female" H 7042 3666 50  0000 C CNN
-F 2 "" H 7150 3900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7150 3900 50  0001 C CNN
 F 3 "~" H 7150 3900 50  0001 C CNN
 	1    7150 3900
 	-1   0    0    1   
