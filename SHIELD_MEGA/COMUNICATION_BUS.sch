@@ -14,119 +14,119 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3750 3900 3550 3900
+	3950 3850 3750 3850
 Wire Wire Line
-	3550 3800 3750 3800
-Text HLabel 3750 3800 2    50   Input ~ 0
+	3750 3750 3950 3750
+Text HLabel 3950 3750 2    50   Input ~ 0
 5V
-Text HLabel 3750 3900 2    50   Input ~ 0
+Text HLabel 3950 3850 2    50   Input ~ 0
 DGND
 Wire Wire Line
-	4750 3900 4550 3900
+	5950 3850 5750 3850
 Wire Wire Line
-	4550 3800 4750 3800
-Text HLabel 4750 3800 2    50   Input ~ 0
+	5750 3750 5950 3750
+Text HLabel 5950 3750 2    50   Input ~ 0
 5V
-Text HLabel 4750 3900 2    50   Input ~ 0
+Text HLabel 5950 3850 2    50   Input ~ 0
 DGND
 Wire Wire Line
-	5700 3900 5500 3900
+	7900 3850 7700 3850
 Wire Wire Line
-	5500 3800 5700 3800
-Text HLabel 5700 3800 2    50   Input ~ 0
+	7700 3750 7900 3750
+Text HLabel 7900 3750 2    50   Input ~ 0
 5V
-Text HLabel 5700 3900 2    50   Input ~ 0
+Text HLabel 7900 3850 2    50   Input ~ 0
 DGND
 Wire Wire Line
-	6900 3900 6700 3900
+	5950 5450 5750 5450
 Wire Wire Line
-	6700 3800 6900 3800
-Text HLabel 6900 3800 2    50   Input ~ 0
+	5750 5350 5950 5350
+Text HLabel 5950 5350 2    50   Input ~ 0
 5V
-Text HLabel 6900 3900 2    50   Input ~ 0
+Text HLabel 5950 5450 2    50   Input ~ 0
 DGND
 Wire Wire Line
-	3550 3700 3750 3700
-Text HLabel 3750 3700 2    50   Input ~ 0
+	3750 3650 3950 3650
+Text HLabel 3950 3650 2    50   Input ~ 0
 TX0
-Text HLabel 3750 3600 2    50   Input ~ 0
+Text HLabel 3950 3550 2    50   Input ~ 0
 RX0
 Wire Wire Line
-	3750 3600 3550 3600
+	3950 3550 3750 3550
 Wire Wire Line
-	4550 3600 4750 3600
-Text HLabel 4750 3600 2    50   Input ~ 0
+	5750 3550 5950 3550
+Text HLabel 5950 3550 2    50   Input ~ 0
 RX2
-Text HLabel 4750 3700 2    50   Input ~ 0
+Text HLabel 5950 3650 2    50   Input ~ 0
 TX2
 Wire Wire Line
-	4750 3700 4550 3700
+	5950 3650 5750 3650
 Wire Wire Line
-	5500 3700 5700 3700
-Text HLabel 5700 3700 2    50   Input ~ 0
+	7700 3650 7900 3650
+Text HLabel 7900 3650 2    50   Input ~ 0
 TX3
-Text HLabel 5700 3600 2    50   Input ~ 0
+Text HLabel 7900 3550 2    50   Input ~ 0
 RX3
 Wire Wire Line
-	5500 3600 5700 3600
+	7700 3550 7900 3550
 Wire Wire Line
-	6700 3700 6900 3700
-Text HLabel 6900 3700 2    50   Input ~ 0
+	5750 5250 5950 5250
+Text HLabel 5950 5250 2    50   Input ~ 0
 SPI_RST
-Text HLabel 6900 3600 2    50   Input ~ 0
+Text HLabel 5950 5150 2    50   Input ~ 0
 SCK
 Wire Wire Line
-	6900 3600 6700 3600
+	5950 5150 5750 5150
 Wire Wire Line
-	6700 3500 6900 3500
-Text HLabel 6900 3500 2    50   Input ~ 0
+	5750 5050 5950 5050
+Text HLabel 5950 5050 2    50   Input ~ 0
 MOSI
-Text HLabel 6900 3400 2    50   Input ~ 0
+Text HLabel 5950 4950 2    50   Input ~ 0
 MISO
 Wire Wire Line
-	6900 3400 6700 3400
+	5950 4950 5750 4950
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 61C34CF1
-P 3350 3700
-F 0 "J?" H 3458 3981 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 3458 3890 50  0000 C CNN
-F 2 "" H 3350 3700 50  0001 C CNN
-F 3 "~" H 3350 3700 50  0001 C CNN
-	1    3350 3700
+P 3550 3650
+F 0 "J?" H 3658 3931 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3658 3840 50  0000 C CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "~" H 3550 3650 50  0001 C CNN
+	1    3550 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 61C36CF7
-P 4350 3700
-F 0 "J?" H 4458 3981 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 4458 3890 50  0000 C CNN
-F 2 "" H 4350 3700 50  0001 C CNN
-F 3 "~" H 4350 3700 50  0001 C CNN
-	1    4350 3700
+P 5550 3650
+F 0 "J?" H 5658 3931 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5658 3840 50  0000 C CNN
+F 2 "" H 5550 3650 50  0001 C CNN
+F 3 "~" H 5550 3650 50  0001 C CNN
+	1    5550 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J?
 U 1 1 61C37472
-P 5300 3700
-F 0 "J?" H 5408 3981 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 5408 3890 50  0000 C CNN
-F 2 "" H 5300 3700 50  0001 C CNN
-F 3 "~" H 5300 3700 50  0001 C CNN
-	1    5300 3700
+P 7500 3650
+F 0 "J?" H 7608 3931 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7608 3840 50  0000 C CNN
+F 2 "" H 7500 3650 50  0001 C CNN
+F 3 "~" H 7500 3650 50  0001 C CNN
+	1    7500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x06_Male J?
 U 1 1 61C38C33
-P 6500 3600
-F 0 "J?" H 6608 3981 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 6608 3890 50  0000 C CNN
-F 2 "" H 6500 3600 50  0001 C CNN
-F 3 "~" H 6500 3600 50  0001 C CNN
-	1    6500 3600
+P 5550 5150
+F 0 "J?" H 5658 5531 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 5658 5440 50  0000 C CNN
+F 2 "" H 5550 5150 50  0001 C CNN
+F 3 "~" H 5550 5150 50  0001 C CNN
+	1    5550 5150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
