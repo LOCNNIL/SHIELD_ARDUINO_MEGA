@@ -148,25 +148,6 @@ Wire Wire Line
 	2050 7150 1650 7150
 $Comp
 L Connector:Conn_01x03_Male J?
-U 1 1 61D7858B
-P 2950 1100
-F 0 "J?" H 3058 1381 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3058 1290 50  0000 C CNN
-F 2 "" H 2950 1100 50  0001 C CNN
-F 3 "~" H 2950 1100 50  0001 C CNN
-	1    2950 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 1200 3550 1200
-Text HLabel 3550 1200 2    50   Input ~ 0
-DGND
-Text HLabel 3550 1100 2    50   Input ~ 0
-5V
-Wire Wire Line
-	3550 1100 3150 1100
-$Comp
-L Connector:Conn_01x03_Male J?
 U 1 1 61D78595
 P 2950 2100
 F 0 "J?" H 3058 2381 50  0000 C CNN
@@ -735,4 +716,175 @@ Text HLabel 9550 5150 2    50   Input ~ 0
 5V
 Wire Wire Line
 	9550 5150 9150 5150
+Wire Wire Line
+	1650 1000 2050 1000
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 61DC449F
+P 2950 1100
+F 0 "J?" H 3058 1381 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3058 1290 50  0000 C CNN
+F 2 "" H 2950 1100 50  0001 C CNN
+F 3 "~" H 2950 1100 50  0001 C CNN
+	1    2950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1200 3550 1200
+Text HLabel 3550 1200 2    50   Input ~ 0
+DGND
+Text HLabel 3550 1100 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3550 1100 3150 1100
+Wire Wire Line
+	3150 1000 3550 1000
+Wire Wire Line
+	1650 2000 2050 2000
+Wire Wire Line
+	3150 2000 3550 2000
+Wire Wire Line
+	4650 1000 5050 1000
+Wire Wire Line
+	4650 2000 5050 2000
+Wire Wire Line
+	1650 3000 2050 3000
+Wire Wire Line
+	3150 3000 3550 3000
+Wire Wire Line
+	4650 3000 5050 3000
+Wire Wire Line
+	6150 3000 6550 3000
+Wire Wire Line
+	6150 2000 6550 2000
+Wire Wire Line
+	6150 1000 6550 1000
+Wire Wire Line
+	1650 4000 2050 4000
+Wire Wire Line
+	3150 4000 3550 4000
+Wire Wire Line
+	4650 4000 5050 4000
+Wire Wire Line
+	6150 4000 6550 4000
+Wire Wire Line
+	7650 4000 8050 4000
+Wire Wire Line
+	7650 3000 8050 3000
+Wire Wire Line
+	7650 5050 8050 5050
+Wire Wire Line
+	6150 5050 6550 5050
+Wire Wire Line
+	4650 5050 5050 5050
+Wire Wire Line
+	3150 5050 3550 5050
+Wire Wire Line
+	1650 5050 2050 5050
+Wire Wire Line
+	1650 6050 2050 6050
+Wire Wire Line
+	1650 7050 2050 7050
+Wire Wire Line
+	3150 7050 3550 7050
+Wire Wire Line
+	4650 7050 5050 7050
+Wire Wire Line
+	6150 7050 6550 7050
+Wire Wire Line
+	6150 6050 6550 6050
+Wire Wire Line
+	9150 5050 9550 5050
+Wire Wire Line
+	9150 4000 9550 4000
+Wire Wire Line
+	9150 3000 9550 3000
+Wire Wire Line
+	9150 2000 9550 2000
+Wire Wire Line
+	7650 2000 8050 2000
+Wire Wire Line
+	7650 1000 8050 1000
+Wire Wire Line
+	9150 1000 9550 1000
+Wire Wire Line
+	3150 6050 3550 6050
+Wire Wire Line
+	4650 6050 5050 6050
+Text HLabel 2050 1000 2    50   Input ~ 0
+D12
+Text HLabel 2050 2000 2    50   Input ~ 0
+D13
+Text HLabel 2050 3000 2    50   Input ~ 0
+D22
+Text HLabel 2050 4000 2    50   Input ~ 0
+D23
+Text HLabel 2050 5050 2    50   Input ~ 0
+D24
+Text HLabel 2050 6050 2    50   Input ~ 0
+D25
+Text HLabel 2050 7050 2    50   Input ~ 0
+D26
+Text HLabel 3550 1000 2    50   Input ~ 0
+D27
+Text HLabel 3550 2000 2    50   Input ~ 0
+D28
+Text HLabel 3550 3000 2    50   Input ~ 0
+D29
+Text HLabel 3550 4000 2    50   Input ~ 0
+D30
+Text HLabel 3550 5050 2    50   Input ~ 0
+D31
+Text HLabel 3550 7050 2    50   Input ~ 0
+D33
+Text HLabel 3550 6050 2    50   Input ~ 0
+D32
+Text HLabel 5050 1000 2    50   Input ~ 0
+D34
+Text HLabel 5050 2000 2    50   Input ~ 0
+D35
+Text HLabel 5050 3000 2    50   Input ~ 0
+D36
+Text HLabel 5050 4000 2    50   Input ~ 0
+D37
+Text HLabel 5050 5050 2    50   Input ~ 0
+D38
+Text HLabel 5050 6050 2    50   Input ~ 0
+D39
+Text HLabel 5050 7050 2    50   Input ~ 0
+D40
+Text HLabel 6550 1000 2    50   Input ~ 0
+D41
+Text HLabel 6550 2000 2    50   Input ~ 0
+D42
+Text HLabel 6550 3000 2    50   Input ~ 0
+D43
+Text HLabel 6550 4000 2    50   Input ~ 0
+D44
+Text HLabel 6550 5050 2    50   Input ~ 0
+D45
+Text HLabel 6550 6050 2    50   Input ~ 0
+D46
+Text HLabel 6550 7050 2    50   Input ~ 0
+D47
+Text HLabel 8050 1000 2    50   Input ~ 0
+D48
+Text HLabel 8050 2000 2    50   Input ~ 0
+D49
+Text HLabel 8050 3000 2    50   Input ~ 0
+D2_INTO0
+Text HLabel 8050 4000 2    50   Input ~ 0
+D3_INT1
+Text HLabel 8050 5050 2    50   Input ~ 0
+D4_PWM
+Text HLabel 9550 1000 2    50   Input ~ 0
+D5_PWM
+Text HLabel 9550 2000 2    50   Input ~ 0
+D6_PWM
+Text HLabel 9550 3000 2    50   Input ~ 0
+D7_PWM
+Text HLabel 9550 4000 2    50   Input ~ 0
+D8
+Text HLabel 9550 5050 2    50   Input ~ 0
+D9
 $EndSCHEMATC
