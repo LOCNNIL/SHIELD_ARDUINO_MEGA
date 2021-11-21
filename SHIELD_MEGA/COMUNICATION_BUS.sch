@@ -39,8 +39,6 @@ Text HLabel 7900 3850 2    50   Input ~ 0
 DGND
 Wire Wire Line
 	5950 5450 5750 5450
-Wire Wire Line
-	5750 5350 5950 5350
 Text HLabel 5950 5350 2    50   Input ~ 0
 5V
 Text HLabel 5950 5450 2    50   Input ~ 0
@@ -86,47 +84,49 @@ MISO
 Wire Wire Line
 	5950 4950 5750 4950
 $Comp
-L Connector:Conn_01x04_Male J9
+L Connector:Conn_01x04_Male J12
 U 1 1 61C34CF1
 P 3550 3650
-F 0 "J9" H 3658 3931 50  0000 C CNN
+F 0 "J12" H 3658 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 3658 3840 50  0000 C CNN
-F 2 "" H 3550 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3550 3650 50  0001 C CNN
 F 3 "~" H 3550 3650 50  0001 C CNN
 	1    3550 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J10
+L Connector:Conn_01x04_Male J13
 U 1 1 61C36CF7
 P 5550 3650
-F 0 "J10" H 5658 3931 50  0000 C CNN
+F 0 "J13" H 5658 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5658 3840 50  0000 C CNN
-F 2 "" H 5550 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 3650 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
 	1    5550 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J12
+L Connector:Conn_01x04_Male J15
 U 1 1 61C37472
 P 7500 3650
-F 0 "J12" H 7608 3931 50  0000 C CNN
+F 0 "J15" H 7608 3931 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 7608 3840 50  0000 C CNN
-F 2 "" H 7500 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 3650 50  0001 C CNN
 F 3 "~" H 7500 3650 50  0001 C CNN
 	1    7500 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J11
+L Connector:Conn_01x06_Male J14
 U 1 1 61C38C33
 P 5550 5150
-F 0 "J11" H 5658 5531 50  0000 C CNN
+F 0 "J14" H 5658 5531 50  0000 C CNN
 F 1 "Conn_01x06_Male" H 5658 5440 50  0000 C CNN
-F 2 "" H 5550 5150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5550 5150 50  0001 C CNN
 F 3 "~" H 5550 5150 50  0001 C CNN
 	1    5550 5150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5750 5350 5950 5350
 $EndSCHEMATC
