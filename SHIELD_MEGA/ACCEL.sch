@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "SHIELD ARDUINO MEGA"
+Date "2021-11-21"
+Rev "V1"
+Comp "PROEX - UNIFEI"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "LINCOLN WALLACE VELOSO ALMEIDA"
 $EndDescr
 NoConn ~ 5650 3000
 NoConn ~ 5650 3500
@@ -33,10 +33,10 @@ SCL
 Text HLabel 5800 3400 2    50   Input ~ 0
 SDA
 $Comp
-L Connector:Conn_01x07_Female J?
+L Connector:Conn_01x07_Female J3
 U 1 1 61B8ACF7
 P 5450 3300
-F 0 "J?" H 5342 2775 50  0000 C CNN
+F 0 "J3" H 5342 2775 50  0000 C CNN
 F 1 "Conn_01x07_Female" H 5342 2866 50  0000 C CNN
 F 2 "" H 5450 3300 50  0001 C CNN
 F 3 "~" H 5450 3300 50  0001 C CNN
