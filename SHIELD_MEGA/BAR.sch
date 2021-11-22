@@ -19,7 +19,7 @@ U 1 1 619D8F87
 P 5600 3600
 F 0 "J73" H 5492 3075 50  0000 C CNN
 F 1 "Conn_01x06_Female" H 5492 3166 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5600 3600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5600 3600 50  0001 C CNN
 F 3 "~" H 5600 3600 50  0001 C CNN
 	1    5600 3600
 	-1   0    0    1   
