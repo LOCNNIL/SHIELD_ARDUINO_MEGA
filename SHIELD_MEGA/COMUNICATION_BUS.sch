@@ -37,11 +37,9 @@ Text HLabel 7900 3750 2    50   Input ~ 0
 5V
 Text HLabel 7900 3850 2    50   Input ~ 0
 DGND
-Wire Wire Line
-	5950 5450 5750 5450
-Text HLabel 5950 5350 2    50   Input ~ 0
+Text HLabel 6250 4450 2    50   Input ~ 0
 5V
-Text HLabel 5950 5450 2    50   Input ~ 0
+Text HLabel 6250 4650 2    50   Input ~ 0
 DGND
 Wire Wire Line
 	3750 3650 3950 3650
@@ -67,22 +65,14 @@ Text HLabel 7900 3550 2    50   Input ~ 0
 RX3
 Wire Wire Line
 	7700 3550 7900 3550
-Wire Wire Line
-	5750 5250 5950 5250
-Text HLabel 5950 5250 2    50   Input ~ 0
+Text HLabel 5350 4650 0    50   Input ~ 0
 SPI_RST
-Text HLabel 5950 5150 2    50   Input ~ 0
+Text HLabel 5350 4550 0    50   Input ~ 0
 SCK
-Wire Wire Line
-	5950 5150 5750 5150
-Wire Wire Line
-	5750 5050 5950 5050
-Text HLabel 5950 5050 2    50   Input ~ 0
+Text HLabel 6250 4550 2    50   Input ~ 0
 MOSI
-Text HLabel 5950 4950 2    50   Input ~ 0
+Text HLabel 5350 4450 0    50   Input ~ 0
 MISO
-Wire Wire Line
-	5950 4950 5750 4950
 $Comp
 L Connector:Conn_01x04_Male J12
 U 1 1 61C34CF1
@@ -117,16 +107,61 @@ F 3 "~" H 7500 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J14
-U 1 1 61C38C33
-P 5550 5150
-F 0 "J14" H 5658 5531 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5658 5440 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5550 5150 50  0001 C CNN
-F 3 "~" H 5550 5150 50  0001 C CNN
-	1    5550 5150
-	1    0    0    -1  
+L Connector_Generic:Conn_02x03_Odd_Even J14
+U 1 1 619D2485
+P 5850 4550
+F 0 "J14" H 5900 4867 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5900 4776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5850 4550 50  0001 C CNN
+F 3 "~" H 5850 4550 50  0001 C CNN
+	1    5850 4550
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 5350 5950 5350
+	6250 4550 6050 4550
+Wire Wire Line
+	6250 4450 6050 4450
+Wire Wire Line
+	6250 4650 6050 4650
+Wire Wire Line
+	5350 4450 5550 4450
+Wire Wire Line
+	5550 4550 5350 4550
+Wire Wire Line
+	5350 4650 5550 4650
+Text HLabel 6250 5100 2    50   Input ~ 0
+5V
+Text HLabel 6250 5300 2    50   Input ~ 0
+DGND
+Text HLabel 5350 5300 0    50   Input ~ 0
+SPI_RST
+Text HLabel 5350 5200 0    50   Input ~ 0
+SCK
+Text HLabel 6250 5200 2    50   Input ~ 0
+MOSI
+Text HLabel 5350 5100 0    50   Input ~ 0
+MISO
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J3
+U 1 1 61AF3820
+P 5850 5200
+F 0 "J3" H 5900 5517 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5900 5426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5850 5200 50  0001 C CNN
+F 3 "~" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5200 6050 5200
+Wire Wire Line
+	6250 5100 6050 5100
+Wire Wire Line
+	6250 5300 6050 5300
+Wire Wire Line
+	5350 5100 5550 5100
+Wire Wire Line
+	5550 5200 5350 5200
+Wire Wire Line
+	5350 5300 5550 5300
 $EndSCHEMATC
