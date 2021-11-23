@@ -37,10 +37,6 @@ Text HLabel 7900 3750 2    50   Input ~ 0
 5V
 Text HLabel 7900 3850 2    50   Input ~ 0
 DGND
-Text HLabel 6250 4450 2    50   Input ~ 0
-5V
-Text HLabel 6250 4650 2    50   Input ~ 0
-DGND
 Wire Wire Line
 	3750 3650 3950 3650
 Text HLabel 3950 3650 2    50   Input ~ 0
@@ -65,14 +61,6 @@ Text HLabel 7900 3550 2    50   Input ~ 0
 RX3
 Wire Wire Line
 	7700 3550 7900 3550
-Text HLabel 5350 4650 0    50   Input ~ 0
-SPI_RST
-Text HLabel 5350 4550 0    50   Input ~ 0
-SCK
-Text HLabel 6250 4550 2    50   Input ~ 0
-MOSI
-Text HLabel 5350 4450 0    50   Input ~ 0
-MISO
 $Comp
 L Connector:Conn_01x04_Male J12
 U 1 1 61C34CF1
@@ -106,29 +94,6 @@ F 3 "~" H 7500 3650 50  0001 C CNN
 	1    7500 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J14
-U 1 1 619D2485
-P 5850 4550
-F 0 "J14" H 5900 4867 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5900 4776 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 5850 4550 50  0001 C CNN
-F 3 "~" H 5850 4550 50  0001 C CNN
-	1    5850 4550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 4550 6050 4550
-Wire Wire Line
-	6250 4450 6050 4450
-Wire Wire Line
-	6250 4650 6050 4650
-Wire Wire Line
-	5350 4450 5550 4450
-Wire Wire Line
-	5550 4550 5350 4550
-Wire Wire Line
-	5350 4650 5550 4650
 Text HLabel 6250 5100 2    50   Input ~ 0
 5V
 Text HLabel 6250 5300 2    50   Input ~ 0
