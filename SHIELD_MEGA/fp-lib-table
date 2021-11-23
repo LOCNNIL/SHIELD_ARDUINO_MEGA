@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Arduino)(type KiCad)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/Arduino.pretty)(options "")(descr ""))
+  (lib (name hirose_connector)(type KiCad)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/hirose_connector.pretty)(options "")(descr ""))
+  (lib (name push_button)(type KiCad)(uri D:/users/linco/Drive/PROJETOS/SHIELD_ARDUINO_MEGA/libs/push_button.pretty)(options "")(descr ""))
 )
