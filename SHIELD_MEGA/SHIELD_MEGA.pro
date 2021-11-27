@@ -1,4 +1,4 @@
-update=21/11/2021 22:51:46
+update=25/11/2021 07:08:36
 version=1
 last_client=kicad
 [general]
@@ -262,6 +262,39 @@ Name=Alimentacao 5v
 Clearance=0.25
 TrackWidth=0.5588
 ViaDiameter=0.889
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=GND
+Clearance=0.2
+TrackWidth=0.508
+ViaDiameter=0.889
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
+Name=GPS
+Clearance=0.16
+TrackWidth=0.22
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/5]
+Name=desconectado
+Clearance=0.16
+TrackWidth=0.25
+ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
 uViaDrill=0.1
