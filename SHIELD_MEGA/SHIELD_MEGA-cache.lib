@@ -1,34 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ComponentsLib_Inductor_15uH_1.9A
-#
-DEF ComponentsLib_Inductor_15uH_1.9A L 0 40 N N 1 F N
-F0 "L" -50 0 50 V V C CNN
-F1 "ComponentsLib_Inductor_15uH_1.9A" 75 0 50 V V C CNN
-F2 "Solver:Ind_6.3x6.3x4.5" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "SRN6045-150M" 0 0 50 H I C CNN "PN"
-F5 "652-SRN6045-150M" 0 0 50 H I C CNN "Mouser#"
-F6 "SRN6045-150MTR-ND" 0 0 50 H I C CNN "Digikey#"
-F7 "Boums-SRN6045-150M" 0 0 50 H I C CNN "Arrow#"
-F8 "1" 0 0 50 H I C CNN "Rev"
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
-A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
-A 0 25 25 -899 899 0 1 0 N 0 0 0 50
-A 0 75 25 -899 899 0 1 0 N 0 50 0 100
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # ComponentsLib_PWR_FLAG
 #
 DEF ComponentsLib_PWR_FLAG #FLG 0 0 N N 1 F P
