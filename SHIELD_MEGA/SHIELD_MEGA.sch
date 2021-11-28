@@ -568,5 +568,5 @@ F 3 "~" H 9000 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9350 6000 0    50   ~ 0
-3.3V
+5V
 $EndSCHEMATC
